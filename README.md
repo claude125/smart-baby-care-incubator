@@ -1,6 +1,6 @@
 # Smart Baby Care Incubator with IoT Monitoring
 
-![Smart Baby Care Incubator](images/incubator-system.jpg)
+
 
 An intelligent neonatal monitoring system that integrates **IoT sensors, artificial intelligence, and hybrid power systems** to improve the safety and care of premature and vulnerable newborns.
 
@@ -45,29 +45,17 @@ Sensors → Microcontroller → Data Processing → AI Analysis → Monitoring D
 
 ### Architecture Diagram
 
-## System Architecture Diagram
-
-```mermaid
-flowchart LR
-
-A[Environmental Sensors<br>Temperature / Humidity / Air Quality]
-B[Infant Vital Sensors<br>Heart Rate / SpO2 / Body Temperature]
-C[Microcontroller<br>ESP32 / Arduino / Raspberry Pi]
-D[Data Processing Layer]
-E[AI Health Risk Analysis]
-F[Monitoring Dashboard]
-G[Alert System<br>SMS / Email Notifications]
-H[Healthcare Staff / Caregivers]
-
-A --> C
-B --> C
-C --> D
-D --> E
-E --> F
-E --> G
-F --> H
-G --> H
-
+Sensors
+↓
+Microcontroller
+↓
+Data Processing
+↓
+AI Analysis
+↓
+Dashboard + Alerts
+↓
+Doctors / Caregivers
 ---
 
 # Key Features
