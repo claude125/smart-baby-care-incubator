@@ -45,7 +45,28 @@ Sensors → Microcontroller → Data Processing → AI Analysis → Monitoring D
 
 ### Architecture Diagram
 
-![System Architecture](images/architecture.png)
+## System Architecture Diagram
+
+```mermaid
+flowchart LR
+
+A[Environmental Sensors<br>Temperature / Humidity / Air Quality]
+B[Infant Vital Sensors<br>Heart Rate / SpO2 / Body Temperature]
+C[Microcontroller<br>ESP32 / Arduino / Raspberry Pi]
+D[Data Processing Layer]
+E[AI Health Risk Analysis]
+F[Monitoring Dashboard]
+G[Alert System<br>SMS / Email Notifications]
+H[Healthcare Staff / Caregivers]
+
+A --> C
+B --> C
+C --> D
+D --> E
+E --> F
+E --> G
+F --> H
+G --> H
 
 ---
 
