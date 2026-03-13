@@ -1,6 +1,5 @@
 # Smart Baby Care Incubator with IoT Monitoring
-
-
+![Smart Baby Care Incubator](1740684353296.jpg)
 
 An intelligent neonatal monitoring system that integrates **IoT sensors, artificial intelligence, and hybrid power systems** to improve the safety and care of premature and vulnerable newborns.
 
